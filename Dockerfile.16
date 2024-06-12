@@ -1,0 +1,4 @@
+FROM ghcr.io/railwayapp-templates/postgres-ssl:16
+
+# Install mysql_fdw
+RUN apt-get update && apt-get install -y postgresql-16-mysql-fdw

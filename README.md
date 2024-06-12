@@ -1,1 +1,3 @@
-# postgres-mysql-fdw
+# Postgres database image with `mysql-fdw` extension
+
+
